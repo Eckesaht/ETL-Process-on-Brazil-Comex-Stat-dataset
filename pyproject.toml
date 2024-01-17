@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "etl-brazil-comex"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Henrique Gonçalves da Silva <pedro.silva8769@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.3"
+pandas = "^2.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
