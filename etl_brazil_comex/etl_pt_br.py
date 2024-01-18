@@ -10,9 +10,6 @@ ARQUIVO_EXP = r'D:\EXP_2022.csv'
 # Pasta onde os arquivos serão salvos.
 DIRETORIO_DE_EXPORTACAO = r'C:\Users\Eckesaht\Desktop\as'
 
-
-
-
 imp = pd.read_csv(ARQUIVO_IMP, sep=';')
 exp = pd.read_csv(ARQUIVO_EXP, sep=';')
 os.makedirs(DIRETORIO_DE_EXPORTACAO, exist_ok=True)
